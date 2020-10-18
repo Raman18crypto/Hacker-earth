@@ -1,0 +1,133 @@
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.details{
+  padding-top:250px;
+  padding-left:250px;
+  color: white;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+}
+
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+span.psw {
+  padding-top: 16px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size:20px;
+  color:green;
+  padding-left:30px;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  font-size:15px;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+  color: white;
+}
+
+.bubbles img{
+  width:50px;
+  animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -70px;
+}
+
+@keyframes bubble{
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50%{
+    
+    opacity: 1;
+  }
+  70%{
+    
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+
+.bubbles img:nth-child(1){
+  animation-delay: 2s;
+  width: 25px;
+}
+.bubbles img:nth-child(2){
+  animation-delay: 1s;
+  width: 25px;
+}
+.bubbles img:nth-child(3){
+  animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+  animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+  animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+  animation-delay: 6s;
+  width: 20px;
+}
+.bubbles img:nth-child(7){
+  animation-delay: 7s;
+  width: 35px;
+}
